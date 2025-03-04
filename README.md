@@ -4,5 +4,6 @@ The satellites grab magnetic field data around the earth. We can train a model o
 The PINN will add a loss term to penalize the magnetic field's divergence and make the model divergence-free.
 An example can be found in the jupyter notebook.
 
-![plot](PINN_plot)
+![plot](./PINN_plot.png)
 
+The $\alpha$ represents the penalization term coefficient. The $\beta$ represents different magnetic field profile. 
